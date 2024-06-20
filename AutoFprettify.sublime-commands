@@ -1,0 +1,22 @@
+[
+  { "caption": "Preferences: AutoFprettify Settings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/AutoFprettify/AutoFprettify.sublime-settings",
+      "default": "{\n\t$0\n}\n"
+    }
+  },
+  { "caption": "Preferences: AutoFprettify Key Bindings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/AutoFprettify/Default (${platform}).sublime-keymap",
+      "default": "[\n\t$0\n]\n"
+    }
+  },
+  { "caption": "AutoFprettify: Open Readme",
+    "command": "open_file",
+    "args": {
+      "file": "${packages}/AutoFprettify/README.md"
+    }
+  },
+]

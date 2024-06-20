@@ -1,0 +1,11 @@
+{
+	"format_on_save": false,
+
+	// Command-line options to pass to fprettify.
+	//
+	// For example, to set the relative indentation width to 2:
+	//
+	// "options": ["-i2"]
+	//
+	"options": [],
+}
